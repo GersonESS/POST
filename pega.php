@@ -1,6 +1,9 @@
 <?php
+$DADOS = filter_input_array(INPUT_POST, FILTTER_DEFAUT);
 
-$nome = isset( $_POST['nome']) ? $_POST['nome'] : NULL;
+var_dump($DADOS);
+
+/*$nome = isset( $_POST['nome']) ? $_POST['nome'] : NULL;
 if($nome){
     echo $nome;
    
@@ -8,6 +11,6 @@ if($nome){
 } else{
     echo "não existe";
 }
-
+*/
 
 ?>

@@ -8,7 +8,7 @@
 </head>
 <body>
  <div class="container">
-    <form action="" method="post">
+    <form action="pega.php" method="post">
     <p>
         Nome:
         <br>
