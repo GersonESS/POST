@@ -8,15 +8,22 @@
 </head>
 <body>
  <div class="container">
-    <form action="pega.php" method="post">
+    <form action="" method="post">
     <p>
         Nome:
         <br>
         <input name="nome">
         <br>
+        SobreNome:
+        <br>
+        <input name="sobrenome">
+        <br>
         <input type="submit" value="Enviar">
     </p>
     </form>
+    <?php
+    print_r($_POST);
+    ?>
  </div>   
 </body>
 </html>

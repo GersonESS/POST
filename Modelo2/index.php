@@ -8,15 +8,32 @@
 </head>
 <body>
  <div class="container">
-    <form action="pega.php" method="post">
+    <form action="" method="post">
     <p>
         Nome:
         <br>
         <input name="nome">
         <br>
+        SobreNome:
+        <br>
+        <input name="sobrenome">
+        <br>
         <input type="submit" value="Enviar">
     </p>
     </form>
+    <?php
+    if(!empty($_POST))
+    {
+        $nome = $_POST['nome'];
+        $sobrenome = $_POST['sobrenome'];
+        if(empty(($nome) || empty($sobrenome)))
+        echo  "<p> Campo vasio";
+    else
+        {
+        print_r($_POST);
+        }
+    }
+    ?>
  </div>   
 </body>
 </html>
