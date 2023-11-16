@@ -1,5 +1,8 @@
 <?php
-$DADOS = filter_input_array(INPUT_POST, FILTTER_DEFAUT);
+print_r($_REQUEST);
+
+
+/*DADOS = filter_input_array(INPUT_POST, FILTTER_DEFAUT);
 
 var_dump($DADOS);
 
